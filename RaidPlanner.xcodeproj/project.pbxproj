@@ -25,6 +25,8 @@
 		2C13B887199BBCDE00A99CDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C13B862199BBCDD00A99CDE /* CoreData.framework */; };
 		2C13B88F199BBCDE00A99CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C13B88D199BBCDE00A99CDE /* InfoPlist.strings */; };
 		2C13B891199BBCDE00A99CDE /* RaidPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B890199BBCDE00A99CDE /* RaidPlannerTests.m */; };
+		2C13B89C199BBDBF00A99CDE /* Adventurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B89B199BBDBF00A99CDE /* Adventurer.m */; };
+		2C13B8A2199BCD9E00A99CDE /* Raid.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13B8A1199BCD9E00A99CDE /* Raid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		2C13B88C199BBCDE00A99CDE /* RaidPlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaidPlannerTests-Info.plist"; sourceTree = "<group>"; };
 		2C13B88E199BBCDE00A99CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C13B890199BBCDE00A99CDE /* RaidPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidPlannerTests.m; sourceTree = "<group>"; };
+		2C13B89A199BBDBF00A99CDE /* Adventurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		2C13B89B199BBDBF00A99CDE /* Adventurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adventurer.m; sourceTree = "<group>"; };
+		2C13B8A0199BCD9E00A99CDE /* Raid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raid.h; sourceTree = "<group>"; };
+		2C13B8A1199BCD9E00A99CDE /* Raid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +137,11 @@
 				2C13B879199BBCDE00A99CDE /* DetailViewController.h */,
 				2C13B87A199BBCDE00A99CDE /* DetailViewController.m */,
 				2C13B87C199BBCDE00A99CDE /* Images.xcassets */,
+				2C13B8A0199BCD9E00A99CDE /* Raid.h */,
+				2C13B8A1199BCD9E00A99CDE /* Raid.m */,
 				2C13B873199BBCDE00A99CDE /* RaidPlanner.xcdatamodeld */,
+				2C13B89A199BBDBF00A99CDE /* Adventurer.h */,
+				2C13B89B199BBDBF00A99CDE /* Adventurer.m */,
 				2C13B865199BBCDE00A99CDE /* Supporting Files */,
 			);
 			path = RaidPlanner;
@@ -264,10 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C13B87B199BBCDE00A99CDE /* DetailViewController.m in Sources */,
+				2C13B8A2199BCD9E00A99CDE /* Raid.m in Sources */,
 				2C13B878199BBCDE00A99CDE /* MasterViewController.m in Sources */,
 				2C13B86F199BBCDE00A99CDE /* AppDelegate.m in Sources */,
 				2C13B875199BBCDE00A99CDE /* RaidPlanner.xcdatamodeld in Sources */,
 				2C13B86B199BBCDE00A99CDE /* main.m in Sources */,
+				2C13B89C199BBDBF00A99CDE /* Adventurer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
